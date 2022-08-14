@@ -9,3 +9,11 @@ The trick is that you need to deploy the lambda inside the VPC.
 Only one environment variable is needed `ENDPOINT`.
 
 Instead of subscribing the "webhook" to the SNS Topic, you need to subscribe this lambda to the SNS Topic and provide an `ENDPOINT` environment variable pointing to the webhook.
+
+
+```
+npm install
+./build_lambda
+```
+
+upload to lambda
